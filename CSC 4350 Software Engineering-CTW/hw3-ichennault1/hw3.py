@@ -63,7 +63,7 @@ except ZeroDivisionError:
 def function(samelist)
 listofint[]
 	for for n in list:
-		if  nnot in listofint:
+		if  n not in listofint:
 			lstof int.append(n)
 	return listofint
 
