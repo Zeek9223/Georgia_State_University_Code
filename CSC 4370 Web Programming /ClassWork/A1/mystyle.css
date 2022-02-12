@@ -1,0 +1,43 @@
+body {
+    font-family: sans serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/81567276_2782878311755845_5409475394795470848_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=w-YQI4r6DvQAX9290wZ&_nc_ht=scontent-atl3-1.xx&oh=00_AT-2ev4hxEXP4GySQ3lQ8N9wRgmqYOVgvLa0fMJPQktATw&oe=622A7D27”Pic of me");
+    color: black;
+}
+
+table {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.myDiv {
+    border: 5px outset silver;
+    background-color: blue;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
