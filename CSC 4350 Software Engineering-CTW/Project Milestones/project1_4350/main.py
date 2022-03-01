@@ -44,6 +44,6 @@ def wikipedia(movie_name):
     page_id= list(output.json()['query']['pages'])[0]
     if page_id != -1:
         return f"http://en.wikipedia.org/?curid={page_id}"
-    return flask.render_template("error.html")
+    return flask.render_template
 if __name__ == '__main__':     
     app.run(use_reloader = True, debug = True)
