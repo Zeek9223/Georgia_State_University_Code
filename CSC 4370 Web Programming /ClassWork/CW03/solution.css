@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4 {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /* Magic begins */
+    flex-wrap: wrap;
+    /* Allow multiple lines */
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.row {
+    display: flex;
+}
+
+.row>div {
+    background-color: #f1f1f1;
+    margin: 2em;
+    padding: 2em;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+
+.column {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    flex-wrap: wrap;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+    column-gap: 40px;
+    column-rule: 4px;
+    /* Should be removed. Only for demonstration */
+}
+
+.left {
+    width: 30%;
+    text-align: left;
+}
+
+.right {
+    width: 70%;
+    text-align: left;
+}
+
+img {
+    float: right;
+    width: 200px;
+}
+
+#para1 {
+    position: fixed;
+    clear: both;
+    bottom: 5px;
+}
+
+#para2 {
+    clear: both;
+    position: fixed;
+}
