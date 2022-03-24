@@ -1,0 +1,106 @@
+body {
+    background-image: url('background.png');
+    font-style: verdana;
+    font-size: 8px;
+    
+}
+
+header{
+    background-image: url("bannerbackground.png");
+    height: 50px;
+    clear: both;
+   
+
+
+}
+
+h2{
+   text-align:center; 
+   font-size: 24px;
+    font-style: verdana;
+    font-weight: bold;
+   
+}
+
+.myHearder{
+    display: block;
+    font-size: 24px;
+    font-style: verdana;
+    font-weight: bold;
+
+}
+
+.myDiv{
+    width: 800px;
+    text-align:center; 
+    border-style: solid;
+    border-width: 4px; 
+    border-color: grey;
+}
+
+.bigger { font-size:48pt;
+color:red;
+font-style:bold; }
+
+h3{
+    text-align:left; 
+    background-image: url("rottenbackground.png")  
+    width: 550px;  
+    top: 8px;
+    left: 16px;
+}
+
+.comments{
+    width: 47%;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-spacing: 0px;
+    
+}
+
+h4{
+    border: 1px solid black;
+    background-color:#E1D697;
+    font-size:8pt;
+    border-spacing: 5px;
+    text-align:left; 
+}
+p{
+    text-align:left; 
+}
+
+.post{
+    width: 250px;
+    top: 0px;
+    right: 0px;
+    float: right;
+    display: inline-block;
+    border-spacing: 15px;
+    overflow-x: hidden;
+    display:block;
+}
+
+.post img{
+    display:block;
+    float: right;
+    display: inline-block;
+    border-spacing: 15px;
+    
+}
