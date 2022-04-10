@@ -1,0 +1,82 @@
+title {
+    text-align: center;
+    color: lightsteelblue;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    border-style: groove;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(157, 159, 160);
+    transition: .3s background-color;
+    border-style: groove;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    border-style: groove;
+    display: block;
+}
+
+h2 {
+    color: beige;
+    border-style: groove;
+    text-align: center;
+    display: block;
+}
+
+nav {
+    background-color: cadetblue;
+    float: left;
+    padding: 20px;
+    border-style: groove;
+    text-align: center;
+    display: block;
+}
+
+section {
+    background-color: dimgrey;
+    content: "";
+    display: table;
+    clear: both;
+    border-style: groove;
+    text-align: center;
+    display: block;
+}
+
+article {
+    border-style: groove;
+    display: block;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transform: rotate(20deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-style: groove;
+    display: block;
+}
