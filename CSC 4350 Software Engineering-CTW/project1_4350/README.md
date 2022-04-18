@@ -37,4 +37,4 @@ One main problem I has with this code is calling the API links for specific cate
 In different aspecct of of getting the API link, the theres information to get you spefic information like reviews and have to pull other API and interlink them so we can the specfic category we want and list in out web app. 
 
 Another is getting randomzinzing the movies with falsk and import random which be came really simply as I dig in more on the web app. 
-I fixed just by creating list input and randomzinzing with with movies I choose for web appp so when it refresh, a different movie will so.
+I fixed just by creating list input and randomzinzing with with movies I choose for web appp so when it refresh, a different movie will show.
