@@ -1,3 +1,10 @@
+#pylint(too-many-locals - R0914)
+#pylint(missing-final-newline - C0304)
+#pylint(trailing-whitespace - C0303
+#pylint(line-too-long - C0301)
+#pylint(invalid-name - C0103)
+
+
 import os
 import random
 import requests
