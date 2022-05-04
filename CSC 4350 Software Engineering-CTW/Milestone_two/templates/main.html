@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>
+        Exploring Movies
+    </title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>
+        {{url}}
+    </h1>
+
+    <h2>
+        {{mov}}
+    </h2>
+    <nav>
+        {{tagline}}
+    </nav>
+    <section>
+        <p>Genres: {{genres}}</p>
+    </section>
+
+
+    <img src="{{image_url}}" /><br>
+    <p> Exploring moivie </p>
+
+    <footer>
+        {{wiki_res}}
+
+    </footer>
+    <form action="{{ request.path }}" method="post">
+
+        <label for="comment">comment</label><br>
+        <textarea name="comment" placeholder="comment"></textarea><br>
+        <label for="rating">rating </label><br>
+        <input type="text" name="rating " placeholder="rating" /><br>
+        <input type="submit" value="Submit" />
+    </form>
+    <br> {% for student inmmi students %}
+    <tr>
+        <td>Comment{{ Person.comment }}</td>
+        <td>{{ Person.rating }}</td>
+    </tr>
+    {% endfor %}
+
+
+</body>
+
+</html>
